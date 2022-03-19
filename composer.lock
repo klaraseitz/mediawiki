@@ -4,8 +4,159 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a708906d4b3afba7798bf247f9d1fc1a",
+    "content-hash": "3cd224dba4d176525fbd28fa76a80093",
     "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.12.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-13T08:19:44+00:00"
+        },
         {
             "name": "composer/semver",
             "version": "3.2.6",
@@ -462,6 +613,83 @@
             "time": "2021-10-06T17:43:30+00:00"
         },
         {
+            "name": "jeroen/file-fetcher",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JeroenDeDauw/FileFetcher.git",
+                "reference": "7a17d947e268e351efc42386d4454a41b07ad481"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JeroenDeDauw/FileFetcher/zipball/7a17d947e268e351efc42386d4454a41b07ad481",
+                "reference": "7a17d947e268e351efc42386d4454a41b07ad481",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "ockcyp/covers-validator": "~1.0",
+                "phpmd/phpmd": "~2.6",
+                "phpstan/phpstan": "~0.10.1",
+                "phpunit/phpunit": "~7.2",
+                "squizlabs/php_codesniffer": "~3.2",
+                "wmde/psr-log-test-doubles": "~2.1"
+            },
+            "suggest": {
+                "jeroen/file-fetcher-cache ": "Provides a SimpleCache (PSR-16) decorator for file fetchers",
+                "jeroen/file-fetcher-stopwatch": "Provides a Symfony Stopwatch decorator for file fetchers"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FileFetcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple file fetching interface",
+            "homepage": "https://github.com/JeroenDeDauw/FileFetcher",
+            "keywords": [
+                "Test Doubles",
+                "cache",
+                "curl",
+                "file fetcher",
+                "file_get_contents",
+                "http",
+                "http client",
+                "http request",
+                "interface",
+                "mocks",
+                "request",
+                "spies",
+                "stubs",
+                "wget"
+            ],
+            "support": {
+                "issues": "https://github.com/JeroenDeDauw/FileFetcher/issues",
+                "source": "https://github.com/JeroenDeDauw/FileFetcher/tree/master"
+            },
+            "time": "2019-01-17T11:44:23+00:00"
+        },
+        {
             "name": "justinrainbow/json-schema",
             "version": "5.2.11",
             "source": {
@@ -584,6 +812,225 @@
                 "source": "https://github.com/liuggio/statsd-php-client/tree/v1.0.18"
             },
             "time": "2015-07-23T23:12:45+00:00"
+        },
+        {
+            "name": "mediawiki/bootstrap",
+            "version": "4.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProfessionalWiki/Bootstrap.git",
+                "reference": "608be3f55a87f3f1b6d37b7c2d0b5cb841191562"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProfessionalWiki/Bootstrap/zipball/608be3f55a87f3f1b6d37b7c2d0b5cb841191562",
+                "reference": "608be3f55a87f3f1b6d37b7c2d0b5cb841191562",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.1",
+                "mediawiki/scss": "~2.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "31.0.0",
+                "mediawiki/mediawiki-phan-config": "0.10.2",
+                "php": ">=7.2"
+            },
+            "type": "mediawiki-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bootstrap\\": "src/",
+                    "Bootstrap\\Tests\\": "tests/phpunit/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stephan Gambke",
+                    "email": "s7eph4n@protonmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Professional.Wiki",
+                    "email": "info@professional.wiki",
+                    "homepage": "https://professional.wiki",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides the Bootstrap 4 web front-end framework to MediaWiki skins and extensions",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Bootstrap",
+            "keywords": [
+                "bootstrap",
+                "extension",
+                "mediawiki",
+                "twitter",
+                "wiki"
+            ],
+            "support": {
+                "docs": "https://github.com/cmln/mw-bootstrap/tree/latest/docs",
+                "forum": "https://www.mediawiki.org/wiki/Extension_talk:Bootstrap",
+                "irc": "irc://irc.freenode.org/mediawiki",
+                "issues": "https://github.com/cmln/mw-bootstrap/issues",
+                "rss": "https://github.com/cmln/mw-bootstrap/releases.atom",
+                "source": "https://github.com/cmln/mw-bootstrap",
+                "wiki": "https://www.mediawiki.org/wiki/Extension:Bootstrap"
+            },
+            "time": "2021-04-10T23:07:56+00:00"
+        },
+        {
+            "name": "mediawiki/chameleon-skin",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProfessionalWiki/chameleon.git",
+                "reference": "be5b77acae63a74d74f5d2fcb692cf459da5e5be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProfessionalWiki/chameleon/zipball/be5b77acae63a74d74f5d2fcb692cf459da5e5be",
+                "reference": "be5b77acae63a74d74f5d2fcb692cf459da5e5be",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2|^1.0.12",
+                "ext-dom": "*",
+                "ext-filter": "*",
+                "jeroen/file-fetcher": "^6|^5|^4.4",
+                "mediawiki/bootstrap": "^4.5",
+                "php": ">=7.4.3"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "38.0.0",
+                "mediawiki/mediawiki-phan-config": "0.11.1"
+            },
+            "type": "mediawiki-skin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stephan Gambke",
+                    "email": "s7eph4n@protonmail.com",
+                    "role": "Creator"
+                },
+                {
+                    "name": "Professional.Wiki",
+                    "email": "info@professional.wiki",
+                    "homepage": "https://professional.wiki",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A highly flexible MediaWiki skin using Bootstrap 4",
+            "homepage": "https://github.com/ProfessionalWiki/chameleon",
+            "keywords": [
+                "bootstrap",
+                "mediawiki",
+                "skin",
+                "twitter",
+                "wiki"
+            ],
+            "support": {
+                "docs": "https://github.com/ProfessionalWiki/chameleon",
+                "irc": "irc://libera.chat:6667/mediawiki",
+                "issues": "https://github.com/ProfessionalWiki/chameleon/issues",
+                "source": "https://github.com/ProfessionalWiki/chameleon.git"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-03-18T20:41:22+00:00"
+        },
+        {
+            "name": "mediawiki/scss",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProfessionalWiki/SCSS.git",
+                "reference": "7034b0a3b1d327e3f2e03ca41a4407c4291f1406"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProfessionalWiki/SCSS/zipball/7034b0a3b1d327e3f2e03ca41a4407c4291f1406",
+                "reference": "7034b0a3b1d327e3f2e03ca41a4407c4291f1406",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "scssphp/scssphp": "^1.5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SCSS\\": "src/",
+                    "SCSS\\Tests\\": "tests/phpunit/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stephan Gambke",
+                    "email": "s7eph4n@protonmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Professional.Wiki",
+                    "email": "info@professional.wiki",
+                    "homepage": "https://professional.wiki",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows using SCSS files for MediaWiki styling",
+            "homepage": "https://github.com/ProfessionalWiki/SCSS",
+            "keywords": [
+                "extension",
+                "mediawiki",
+                "resouce loader",
+                "resouceloader",
+                "sass",
+                "scss",
+                "scssphp",
+                "wiki"
+            ],
+            "support": {
+                "docs": "https://github.com/ProfessionalWiki/SCSS/tree/latest/docs",
+                "irc": "irc://irc.freenode.org/mediawiki",
+                "issues": "https://github.com/ProfessionalWiki/SCSS/issues",
+                "rss": "https://github.com/ProfessionalWiki/SCSS/releases.atom",
+                "source": "https://github.com/ProfessionalWiki/SCSS"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-05-18T11:36:27+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1577,6 +2024,80 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "scssphp/scssphp",
+            "version": "v1.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scssphp/scssphp.git",
+                "reference": "387f4f4abf5d99f16be16314c5ab856f81c82f46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/387f4f4abf5d99f16be16314c5ab856f81c82f46",
+                "reference": "387f4f4abf5d99f16be16314c5ab856f81c82f46",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.3 || ^9.4",
+                "sass/sass-spec": "*",
+                "squizlabs/php_codesniffer": "~3.5",
+                "symfony/phpunit-bridge": "^5.1",
+                "thoughtbot/bourbon": "^7.0",
+                "twbs/bootstrap": "~5.0",
+                "twbs/bootstrap4": "4.6.1",
+                "zurb/foundation": "~6.5"
+            },
+            "suggest": {
+                "ext-iconv": "Can be used as fallback when ext-mbstring is not available",
+                "ext-mbstring": "For best performance, mbstring should be installed as it is faster than ext-iconv"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ScssPhp\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthon Pang",
+                    "email": "apang@softwaredevelopment.ca",
+                    "homepage": "https://github.com/robocoder"
+                },
+                {
+                    "name": "Cédric Morin",
+                    "email": "cedric@yterium.com",
+                    "homepage": "https://github.com/Cerdic"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://scssphp.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "support": {
+                "issues": "https://github.com/scssphp/scssphp/issues",
+                "source": "https://github.com/scssphp/scssphp/tree/v1.10.2"
+            },
+            "time": "2022-03-02T21:15:09+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

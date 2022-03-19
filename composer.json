@@ -77,7 +77,8 @@
 		"wikimedia/wait-condition-loop": "2.0.2",
 		"wikimedia/wrappedstring": "4.0.1",
 		"wikimedia/xmp-reader": "0.8.1",
-		"zordius/lightncandy": "1.2.6"
+		"zordius/lightncandy": "1.2.6",
+		"mediawiki/chameleon-skin": "~4.0"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
@@ -167,7 +168,8 @@
 		"prepend-autoloader": false,
 		"allow-plugins": {
 			"composer/package-versions-deprecated": true,
-			"wikimedia/composer-merge-plugin": true
+			"wikimedia/composer-merge-plugin": true,
+			"composer/installers": true
 		},
 		"platform": {
 			"php": "7.4.28"
