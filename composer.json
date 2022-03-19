@@ -168,6 +168,9 @@
 		"allow-plugins": {
 			"composer/package-versions-deprecated": true,
 			"wikimedia/composer-merge-plugin": true
+		},
+		"platform": {
+			"php": "7.4.28"
 		}
 	},
 	"extra": {
