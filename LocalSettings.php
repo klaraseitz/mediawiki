@@ -129,6 +129,7 @@ $wgGroupPermissions['*']['edit'] = false;
 wfLoadExtension( 'Bootstrap' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'CategoryTree' );
+wfLoadExtension( 'VisualEditor' );
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
