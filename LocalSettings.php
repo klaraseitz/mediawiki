@@ -136,6 +136,11 @@ wfLoadExtension( 'ParserFunctions' );
 ## names, e.g. 'vector' or 'monobook':
 wfLoadSkin( 'chameleon' );
 $wgDefaultSkin = 'chameleon';
+$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/clean.xml';
+$egChameleonThemeFile = __DIR__ . '/themes/sketchy.scss';
+$egChameleonExternalStyleModules = [
+	__DIR__ . '/themes/sketchy_bootswatch.scss' => 'afterMain',
+];
 
 # End of automatically generated settings.
 # Add more configuration options below.
