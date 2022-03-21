@@ -78,7 +78,8 @@
 		"wikimedia/wrappedstring": "4.0.1",
 		"wikimedia/xmp-reader": "0.8.1",
 		"zordius/lightncandy": "1.2.6",
-		"mediawiki/chameleon-skin": "~4.0"
+		"mediawiki/chameleon-skin": "~4.0",
+		"mediawiki/bootstrap": "^4.5"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
