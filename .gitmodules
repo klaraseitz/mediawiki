@@ -1,0 +1,3 @@
+[submodule "extensions/VisualEditor"]
+	path = extensions/VisualEditor
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git
