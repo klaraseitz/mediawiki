@@ -130,6 +130,7 @@ wfLoadExtension( 'Bootstrap' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'VisualEditor' );
+wfLoadExtension( 'ParserFunctions' );
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
