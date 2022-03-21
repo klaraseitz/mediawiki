@@ -80,7 +80,8 @@
 		"zordius/lightncandy": "1.2.6",
 		"mediawiki/chameleon-skin": "~4.0",
 		"mediawiki/bootstrap": "^4.5",
-		"wikifab/category-tree": "^1.7"
+		"wikifab/category-tree": "^1.7",
+		"mediawiki/font-awesome": "^1.0"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
