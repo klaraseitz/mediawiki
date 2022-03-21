@@ -132,8 +132,7 @@ wfLoadExtension( 'VisualEditor' );
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
 wfLoadSkin( 'chameleon' );
-wfLoadSkin( 'MinervaNeue' );
-$wgDefaultSkin = 'minerva';
+$wgDefaultSkin = 'chameleon';
 
 # End of automatically generated settings.
 # Add more configuration options below.
