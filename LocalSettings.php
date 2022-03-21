@@ -127,6 +127,7 @@ $wgDefaultSkin = "vector";
 
 # Enabled skins.
 # The following skins were automatically enabled:
+wfLoadExtension('Bootstrap')
 wfLoadSkin( 'chameleon' );
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
