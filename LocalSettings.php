@@ -142,6 +142,8 @@ $egChameleonExternalStyleModules = [
 	__DIR__ . '/themes/sketchy_bootswatch.scss' => 'afterMain',
 ];
 
+$egScssCacheType = CACHE_NONE;
+
 # End of automatically generated settings.
 # Add more configuration options below.
 
