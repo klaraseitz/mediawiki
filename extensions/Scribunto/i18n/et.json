@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": [
 			"Avjoska",
-			"Cumbril",
 			"Pikne"
 		]
 	},
@@ -22,7 +21,6 @@
 	"scribunto-common-nosuchmodule": "Skriptitõrge: Moodulit \"$2\" pole.",
 	"scribunto-common-nosuchfunction": "Skriptitõrge: Funktsioon \"$2\" puudub.",
 	"scribunto-common-notafunction": "Skriptitõrge: \"$2\" pole funktsioon.",
-	"scribunto-common-no-details": "Rohkem üksikasju pole saadaval.",
 	"scribunto-lua-in-function": "funktsioonis \"$1\"",
 	"scribunto-lua-error-location": "Lua tõrge $1: $2.",
 	"scribunto-lua-error": "Lua tõrge: $2.",
@@ -34,7 +32,5 @@
 	"scribunto-limitreport-virtmemusage": "Lua virtuaalne suurus",
 	"scribunto-limitreport-estmemusage": "Lua hinnanguline mälukasutus",
 	"scribunto-limitreport-memusage": "Lua mälukasutus",
-	"scribunto-limitreport-profile": "Lua profiil",
-	"nstab-module": "Moodul",
-	"tooltip-ca-nstab-module": "Vaata mooduli lehekülge"
+	"scribunto-limitreport-profile": "Lua profiil"
 }

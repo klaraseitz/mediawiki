@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a034e27ba299ad3428d4180664ff8f8a",
+    "content-hash": "d95f474d1c52e29cf98b78d3921db00f",
     "packages": [
         {
             "name": "composer/installers",
@@ -1542,6 +1542,39 @@
                 "wiki": "https://www.mediawiki.org/wiki/Extension:FontAwesome"
             },
             "time": "2019-10-20T04:05:16+00:00"
+        },
+        {
+            "name": "mediawiki/scribunto",
+            "version": "dev-REL1_27",
+            "source": {
+                "type": "git",
+                "url": "https://phabricator.wikimedia.org/diffusion/ELUA/extension-scribunto.git",
+                "reference": "3ada945a2fcc998481def3b7d8ff79cc28efcd2a"
+            },
+            "require": {
+                "composer/installers": ">=1.0.1"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Victor Vasiliev",
+                    "email": "vasilvv@gmail.com"
+                },
+                {
+                    "name": "Tim Starling",
+                    "email": "tstarling@users.mediawiki.org"
+                }
+            ],
+            "description": "Framework for embedding scripting languages into MediaWiki pages",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Scribunto",
+            "time": "2018-04-02T22:35:18+00:00"
         },
         {
             "name": "mediawiki/scss",
@@ -3093,12 +3126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/Wikibase.git",
-                "reference": "c2cc3f2058f89b4d4e2619177e5de3e9747926ee"
+                "reference": "da1f4a07d108331dce14d2b1801393e61d723d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/Wikibase/zipball/c2cc3f2058f89b4d4e2619177e5de3e9747926ee",
-                "reference": "c2cc3f2058f89b4d4e2619177e5de3e9747926ee",
+                "url": "https://api.github.com/repos/wikimedia/Wikibase/zipball/da1f4a07d108331dce14d2b1801393e61d723d2a",
+                "reference": "da1f4a07d108331dce14d2b1801393e61d723d2a",
                 "shasum": ""
             },
             "require": {
@@ -3157,7 +3190,7 @@
                 "issues": "https://phabricator.wikimedia.org/",
                 "source": "https://github.com/wikimedia/Wikibase/tree/master"
             },
-            "time": "2022-03-22T11:10:47+00:00"
+            "time": "2022-03-22T11:56:37+00:00"
         },
         {
             "name": "wikifab/category-tree",
@@ -9298,7 +9331,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wikimedia/parsoid": 15,
-        "wikibase/wikibase": 20
+        "wikibase/wikibase": 20,
+        "mediawiki/scribunto": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

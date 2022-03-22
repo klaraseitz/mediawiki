@@ -1,11 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gmelfi",
 			"Pippinu",
-			"Sarvaturi",
-			"Ajeje Brazorf",
-			"AntiCompositeNumber"
+			"Gmelfi",
+			"Sarvaturi"
 		]
 	},
 	"scribunto-desc": "Piattaforma pi ncurpurari linguaggi script ntê pàggini MediaWiki",
@@ -43,6 +41,7 @@
 	"scribunto-luastandalone-proc-error": "Erruri dû Lua: Nun si potti criari nu prucessu.",
 	"scribunto-luastandalone-proc-error-msg": "Erruri dû Lua: Nun si potti criari nu prucessu: $2",
 	"scribunto-luastandalone-proc-error-proc-open": "Erruri dû Lua: Nun si potti criari nu prucessu: proc_open nun è dispunìbbili. Cuntrullari la dirittiva di cunfigurazzioni \"disable_functions\" dû PHP.",
+	"scribunto-luastandalone-proc-error-safe-mode": "Erruri dû Lua: Nun si potti criari nu prucessu. Accura chi la dirittiva di cunfigurazzioni dipricata dû PHP \"safe_mode\" è attivata.",
 	"scribunto-luastandalone-decode-error": "Erruri dû Lua: Erruri nternu: Nun si potti dicudificari un missaggiu.",
 	"scribunto-luastandalone-write-error": "Erruri dû Lua: Erruri nternu: Erruri ntâ scrivuta ntôn pipe.",
 	"scribunto-luastandalone-read-error": "Erruri dû Lua: Erruri nternu: Erruri ntâ littura dûn pipe.",
@@ -54,14 +53,15 @@
 	"scribunto-limitreport-timeusage": "Cunzumu di tempu dû Lua",
 	"scribunto-limitreport-timeusage-value": "$1/$2 sicunni",
 	"scribunto-limitreport-virtmemusage": "Grannizza virtuali dû Lua",
-	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|byte}}",
 	"scribunto-limitreport-estmemusage": "Cunzumu di mimoria dû Lua stimatu",
-	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|byte}}",
 	"scribunto-limitreport-memusage": "Cunzumu di mimoria dû Lua",
-	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|byte}}",
 	"scribunto-limitreport-profile": "Prufilu dû Lua",
 	"scribunto-limitreport-profile-ms": "$1 ms",
 	"scribunto-limitreport-logs": "Riggistri dû Lua",
-	"nstab-module": "Mòdulu",
-	"tooltip-ca-nstab-module": "Talìa la pàggina dû mòdulu"
+	"apihelp-scribunto-console-description": "Mòdulu nternu pi sèrviri addumannati XHR dâ console Scribunto.",
+	"apihelp-scribunto-console-param-title": "Lu tìtulu dû mòdulu di pruvari.",
+	"apihelp-scribunto-console-param-content": "Lu cuntinutu novu dû mòdulu.",
+	"apihelp-scribunto-console-param-session": "Token dâ sissioni.",
+	"apihelp-scribunto-console-param-question": "La pròssima riga di valutari comu script.",
+	"apihelp-scribunto-console-param-clear": "Attivari p'azzirari lu statu currenti dâ sissioni."
 }

@@ -1,12 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua",
-			"Fierodelveneto"
+			"Candalua"
 		]
 	},
-	"scribunto-common-error-category": "Voze co erori de script",
-	"scribunto-lua-error": "Eror Lua: $2.",
-	"scribunto-limitreport-timeusage": "Tenpo de doparasion Lua",
-	"scribunto-limitreport-memusage": "Doparasion de ła memòria Lua"
+	"scribunto-lua-error": "Error Lua: $2."
 }

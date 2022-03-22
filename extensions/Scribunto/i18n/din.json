@@ -1,9 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80",
 			"Dinkawiki"
 		]
 	},
-	"scribunto-lua-error": "Lua awäc: $2"
+	"scribunto-lua-error": "Lua awäc:$2"
 }

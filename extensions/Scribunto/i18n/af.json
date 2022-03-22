@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Naudefj",
 			"Arnobarnard",
-			"Fwolff",
-			"Naudefj"
+			"Fwolff"
 		]
 	},
 	"scribunto-line": "op reël $1",

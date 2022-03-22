@@ -1,4 +1,4 @@
-( function () {
+( function ( $, mw ) {
 
 	mw.hook( 'wikipage.content' ).add( function () {
 		var errors = mw.config.get( 'ScribuntoErrors' ),
@@ -38,4 +38,4 @@
 		} );
 	} );
 
-}() );
+} )( jQuery, mediaWiki );

@@ -1,11 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"A-lú-mih",
-			"Ianbu",
-			"Luuva"
+			"Ianbu"
 		]
 	},
-	"scribunto-common-error-category": "Tòa script gō͘-biū ê ia̍h",
 	"scribunto-lua-error": "Lua錯誤:$2"
 }

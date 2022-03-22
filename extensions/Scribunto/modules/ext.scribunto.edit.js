@@ -1,6 +1,4 @@
-/* eslint-disable no-use-before-define */
-
-( function () {
+( function ( $, mw ) {
 
 	/**
 	 * Debug console
@@ -13,12 +11,14 @@
 	 *    * Collapsible backtrace display
 	 */
 
-	var histList = [ '' ],
+	var
+		histList = [ '' ],
 		histPos = 0,
 		question,
 		input,
 		output,
 		$spinner,
+		lastError = null,
 		sessionContent = null,
 		sessionKey = null,
 		pending = false,
@@ -45,6 +45,8 @@
 	 * @param {jQuery.Event} e
 	 */
 	function inputKeydown( e ) {
+		/*jshint noempty:false */
+
 		if ( e.shiftKey && e.keyCode === 13 ) {
 			// shift-enter
 			// don't do anything; allow the shift-enter to insert a line break as normal
@@ -201,6 +203,8 @@
 	function printError( er ) {
 		var lineNumberString;
 
+		// for debugging the shell
+		lastError = er;
 		if ( er.name ) {
 			// lineNumberString should not be '', to avoid a very wacky bug in IE 6.
 			lineNumberString = ( er.lineNumber !== undefined ) ? ( ' on line ' + er.lineNumber + ': ' ) : ': ';
@@ -299,8 +303,8 @@
 					if ( result.print !== '' ) {
 						println( result.print, 'mw-scribunto-print' );
 					}
-					if ( result.return !== '' ) {
-						println( result.return, 'mw-scribunto-normalOutput' );
+					if ( result[ 'return' ] !== '' ) {
+						println( result[ 'return' ], 'mw-scribunto-normalOutput' );
 					}
 				}
 				clearPending();
@@ -362,7 +366,7 @@
 					$( '<textarea>' )
 						.attr( {
 							id: 'mw-scribunto-input',
-							class: 'mw-scribunto-input',
+							'class': 'mw-scribunto-input',
 							wrap: 'off',
 							rows: 1,
 							dir: 'ltr',
@@ -395,4 +399,4 @@
 		}
 	} );
 
-}() );
+}( jQuery, mediaWiki ) );

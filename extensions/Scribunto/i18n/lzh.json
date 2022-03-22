@@ -1,9 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"SolidBlock",
-			"列维劳德"
+			"SolidBlock"
 		]
 	},
-	"scribunto-lua-error": "邏輯單元應用之誤：$2"
+	"scribunto-lua-error": "Lua誤：$2"
 }

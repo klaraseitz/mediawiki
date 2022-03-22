@@ -1,10 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Derslek",
-			"Ерней"
+			"Derslek"
 		]
 	},
-	"scribunto-console-clear": "Бушату",
 	"scribunto-lua-error": "Lua хатасы: $2."
 }

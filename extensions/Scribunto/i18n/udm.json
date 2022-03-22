@@ -1,11 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AlnashPiyash2",
-			"Kaganer",
-			"Kotwys"
+			"AlnashPiyash2"
 		]
 	},
-	"scribunto-lua-error": "Lua янгыш: $2.",
-	"scribunto-limitreport-logs": "Lua журналъёс"
+	"scribunto-lua-error": "Lua: $2 янгыш."
 }

@@ -82,7 +82,8 @@
 		"mediawiki/bootstrap": "^4.5",
 		"wikifab/category-tree": "^1.7",
 		"mediawiki/font-awesome": "^1.0",
-		"wikibase/wikibase": "dev-master"
+		"wikibase/wikibase": "dev-master",
+		"mediawiki/scribunto": "dev-REL1_27"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
