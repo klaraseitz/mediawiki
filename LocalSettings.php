@@ -139,6 +139,7 @@ $wgDefaultSkin = 'chameleon';
 $egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/clean.xml';
 $egChameleonThemeFile = __DIR__ . '/themes/sketchy.scss';
 $egChameleonExternalStyleModules = [
+	__DIR__ . '/themes/sketchy.scss' => 'afterVariables',
 	__DIR__ . '/themes/sketchy_bootswatch.scss' => 'afterMain',
 ];
 
