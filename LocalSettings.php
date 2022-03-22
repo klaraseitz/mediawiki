@@ -137,13 +137,10 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadSkin( 'chameleon' );
 $wgDefaultSkin = 'chameleon';
 $egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/clean.xml';
-$egChameleonThemeFile = __DIR__ . '/themes/sketchy.scss';
+$egChameleonThemeFile = __DIR__ . '/themes/yeti.scss';
 $egChameleonExternalStyleModules = [
-	__DIR__ . '/themes/sketchy.scss' => 'afterVariables',
-	__DIR__ . '/themes/sketchy_bootswatch.scss' => 'afterMain',
+	__DIR__ . '/themes/yeti_bootswatch.scss' => 'afterMain',
 ];
-
-$egScssCacheType = CACHE_NONE;
 
 # End of automatically generated settings.
 # Add more configuration options below.
