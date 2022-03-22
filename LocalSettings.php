@@ -135,6 +135,7 @@ wfLoadExtension( 'Parsoid', 'vendor/wikimedia/parsoid/extension.json' );
 wfLoadExtension( 'Scribunto' );
 $wgScribuntoDefaultEngine = 'luastandalone';
 wfLoadExtension( 'TemplateStyles' );
+wfLoadExtension( 'InputBox' );
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
