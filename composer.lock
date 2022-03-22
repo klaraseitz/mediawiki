@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3458cb7599b160bee77f4fe13c4a98f6",
+    "content-hash": "a034e27ba299ad3428d4180664ff8f8a",
     "packages": [
         {
             "name": "composer/installers",
@@ -288,6 +288,539 @@
                 "source": "https://github.com/cssjanus/php-cssjanus/tree/v2.1.0"
             },
             "time": "2021-09-09T17:58:26+00:00"
+        },
+        {
+            "name": "data-values/common",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/Common.git",
+                "reference": "315bd95ef8e5c360ce8a1cf02c0eef35bbb92561"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/Common/zipball/315bd95ef8e5c360ce8a1cf02c0eef35bbb92561",
+                "reference": "315bd95ef8e5c360ce8a1cf02c0eef35bbb92561",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/data-values": "~3.0|~2.0|~1.0|~0.1",
+                "data-values/interfaces": "~1.0|~0.2.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "^34",
+                "ockcyp/covers-validator": "^1.3.3",
+                "phpunit/phpunit": "~8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DataValues\\": "src/DataValues/",
+                    "ValueParsers\\": "src/ValueParsers/",
+                    "ValueFormatters\\": "src/ValueFormatters/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Contains common implementations of the interfaces defined by DataValuesInterfaces",
+            "homepage": "https://github.com/DataValues/Common",
+            "keywords": [
+                "datavalues",
+                "valueformatters",
+                "valueparsers",
+                "valuevalidators",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikidata",
+                "issues": "https://github.com/DataValues/Common/issues",
+                "source": "https://github.com/DataValues/Common/tree/1.0.0"
+            },
+            "time": "2021-01-25T15:31:52+00:00"
+        },
+        {
+            "name": "data-values/data-values",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/DataValues.git",
+                "reference": "63dee286f8bb4ae7899c2d2e8d439e7b5332cc49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/DataValues/zipball/63dee286f8bb4ae7899c2d2e8d439e7b5332cc49",
+                "reference": "63dee286f8bb4ae7899c2d2e8d439e7b5332cc49",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "replace": {
+                "mediawiki/data-values": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.0",
+                "wikibase/wikibase-codesniffer": "~1.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DataValues\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Defines the DataValue interface and some trivial implementations",
+            "homepage": "https://github.com/DataValues/DataValues",
+            "keywords": [
+                "datavalues",
+                "wikibase",
+                "wikidata"
+            ],
+            "support": {
+                "issues": "https://github.com/DataValues/DataValues/issues",
+                "source": "https://github.com/DataValues/DataValues/tree/3.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-19T16:36:36+00:00"
+        },
+        {
+            "name": "data-values/geo",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/Geo.git",
+                "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/Geo/zipball/58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
+                "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/data-values": "^3.0|^2.0|^1.0|~0.1",
+                "data-values/interfaces": "^1.0.0|^0.2.0",
+                "php": ">=7.3",
+                "symfony/polyfill-php80": "^1.18.1"
+            },
+            "require-dev": {
+                "maglnet/composer-require-checker": "^3.0|^2.0",
+                "mediawiki/mediawiki-codesniffer": "^34 || ^35",
+                "ockcyp/covers-validator": "^1.3.3",
+                "phpmd/phpmd": "^2.9.1",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "^9.4.1",
+                "vimeo/psalm": "^4.4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DataValues\\Geo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "The Wikidata team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Geographical value objects, parsers and formatters",
+            "homepage": "https://github.com/DataValues/Geo",
+            "keywords": [
+                "Degrees",
+                "Minutes",
+                "coordinate",
+                "coordinates",
+                "datavalues",
+                "dms",
+                "formatters",
+                "geo",
+                "geographical",
+                "latitude",
+                "latlong",
+                "longitude",
+                "parsers",
+                "seconds",
+                "wikidata"
+            ],
+            "support": {
+                "docs": "https://github.com/DataValues/Geo/#usage",
+                "issues": "https://github.com/DataValues/Geo/issues",
+                "source": "https://github.com/DataValues/Geo/tree/4.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-04-21T11:29:29+00:00"
+        },
+        {
+            "name": "data-values/interfaces",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/Interfaces.git",
+                "reference": "244d078954bc05edf8f8c6b088e848289171c3a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/Interfaces/zipball/244d078954bc05edf8f8c6b088e848289171c3a8",
+                "reference": "244d078954bc05edf8f8c6b088e848289171c3a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "^34",
+                "ockcyp/covers-validator": "~1.0",
+                "phpmd/phpmd": "^2.9.1",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "~8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ValueParsers\\": "src/ValueParsers/",
+                    "ValueFormatters\\": "src/ValueFormatters/",
+                    "ValueValidators\\": "src/ValueValidators/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Defines interfaces for ValueParsers, ValueFormatters and ValueValidators",
+            "homepage": "https://github.com/DataValues/Interfaces",
+            "keywords": [
+                "datavalues",
+                "valueformatters",
+                "valueparsers",
+                "valuevalidators",
+                "wikidata"
+            ],
+            "support": {
+                "issues": "https://github.com/DataValues/Interfaces/issues",
+                "source": "https://github.com/DataValues/Interfaces/tree/1.0.0"
+            },
+            "time": "2021-01-20T13:45:09+00:00"
+        },
+        {
+            "name": "data-values/number",
+            "version": "0.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wmde/Number.git",
+                "reference": "3177a4e11fee862d59a4f66c6b35408e9c609843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wmde/Number/zipball/3177a4e11fee862d59a4f66c6b35408e9c609843",
+                "reference": "3177a4e11fee862d59a4f66c6b35408e9c609843",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/common": "1.0.0|~0.4.0|~0.3.0",
+                "data-values/data-values": "~3.0.0|~2.0|~1.0|~0.1",
+                "data-values/interfaces": "~1.0.0|~0.2.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "ext-bcmath": "*",
+                "mediawiki/mediawiki-codesniffer": "34.0.0",
+                "phpunit/phpunit": "~8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Number.php"
+                ],
+                "psr-0": {
+                    "DataValues\\": "src",
+                    "ValueParsers\\": "src",
+                    "ValueFormatters\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Kinzler"
+                },
+                {
+                    "name": "Thiemo Kreuz"
+                }
+            ],
+            "description": "Numerical value objects, parsers and formatters",
+            "homepage": "https://github.com/DataValues/Number",
+            "keywords": [
+                "datavalues",
+                "number",
+                "valueformatters",
+                "valueparsers",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikidata",
+                "issues": "https://github.com/wmde/Number/issues",
+                "source": "https://github.com/wmde/Number/tree/0.11.1"
+            },
+            "time": "2021-03-30T17:10:04+00:00"
+        },
+        {
+            "name": "data-values/serialization",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataValues/Serialization.git",
+                "reference": "5bc3640f7ddb642479ff490fae64fcf19c7e75af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataValues/Serialization/zipball/5bc3640f7ddb642479ff490fae64fcf19c7e75af",
+                "reference": "5bc3640f7ddb642479ff490fae64fcf19c7e75af",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/data-values": "~3.0|~2.0|~1.0|~0.1",
+                "php": ">=7.2",
+                "serialization/serialization": "~4.0|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.5",
+                "wikibase/wikibase-codesniffer": "^1.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DataValues\\Serializers\\": "src/Serializers",
+                    "DataValues\\Deserializers\\": "src/Deserializers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Serializers and deserializers for DataValue implementations",
+            "homepage": "https://github.com/DataValues/Serialization",
+            "keywords": [
+                "datavalues",
+                "deserializers",
+                "serialization",
+                "serializers",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikidata",
+                "issues": "https://github.com/DataValues/Serialization/issues",
+                "source": "https://github.com/DataValues/Serialization/tree/1.2.4"
+            },
+            "time": "2021-03-29T11:26:32+00:00"
+        },
+        {
+            "name": "data-values/time",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wmde/Time.git",
+                "reference": "abbb585f2c71ca8a1ac9aea858cf5ba6b8920320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wmde/Time/zipball/abbb585f2c71ca8a1ac9aea858cf5ba6b8920320",
+                "reference": "abbb585f2c71ca8a1ac9aea858cf5ba6b8920320",
+                "shasum": ""
+            },
+            "require": {
+                "data-values/common": "1.0.0|~0.4.0|~0.3.0",
+                "data-values/data-values": "3.0.0|~2.0|~1.0|~0.1",
+                "data-values/interfaces": "1.0.0|~0.2.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "34.0.0",
+                "phpunit/phpunit": "~8.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "DataValues\\": "src",
+                    "ValueParsers\\": "src",
+                    "ValueFormatters\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "The Wikidata team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Time value objects, parsers and formatters",
+            "homepage": "https://github.com/DataValues/Time",
+            "keywords": [
+                "datavalues",
+                "time",
+                "valueformatters",
+                "valueparsers",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikidata",
+                "issues": "https://github.com/wmde/Time/issues",
+                "source": "https://github.com/wmde/Time/tree/1.0.4"
+            },
+            "time": "2021-07-15T13:35:54+00:00"
+        },
+        {
+            "name": "diff/diff",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wmde/Diff.git",
+                "reference": "89bbd224a9ad6cc6cb8e01263ae5add2564e7cf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wmde/Diff/zipball/89bbd224a9ad6cc6cb8e01263ae5add2564e7cf0",
+                "reference": "89bbd224a9ad6cc6cb8e01263ae5add2564e7cf0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ockcyp/covers-validator": "~1.0",
+                "phpunit/phpunit": "~6.2",
+                "squizlabs/php_codesniffer": "~3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Diff.php"
+                ],
+                "psr-4": {
+                    "Diff\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Small standalone library for representing differences between data structures, computing such differences, and applying them as patches",
+            "homepage": "https://github.com/wmde/Diff",
+            "keywords": [
+                "diff",
+                "diffing",
+                "diffop",
+                "patch",
+                "patching",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikimedia-de-tech",
+                "issues": "https://github.com/wmde/Diff/issues",
+                "source": "https://github.com/wmde/Diff/tree/master"
+            },
+            "time": "2018-09-11T11:51:44+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1181,6 +1714,72 @@
             "time": "2020-12-14T13:15:25+00:00"
         },
         {
+            "name": "onoi/message-reporter",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onoi/message-reporter.git",
+                "reference": "ead8ef8f2868ccee6881e471295ebbaf8428c96c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onoi/message-reporter/zipball/ead8ef8f2868ccee6881e471295ebbaf8428c96c",
+                "reference": "ead8ef8f2868ccee6881e471295ebbaf8428c96c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "~34.0",
+                "ockcyp/covers-validator": "~1.1",
+                "phpstan/phpstan": "~0.12.67",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "~3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Onoi\\MessageReporter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "homepage": "https://EntropyWins.wtf"
+                },
+                {
+                    "name": "James Hong Kong"
+                }
+            ],
+            "description": "An interface to report and relay arbitrary messages to registered handlers",
+            "homepage": "https://github.com/onoi/message-reporter",
+            "keywords": [
+                "messages",
+                "reporter"
+            ],
+            "support": {
+                "issues": "https://github.com/onoi/message-reporter/issues",
+                "source": "https://github.com/onoi/message-reporter/tree/1.4.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JeroenDeDauw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-15T14:23:11+00:00"
+        },
+        {
             "name": "oojs/oojs-ui",
             "version": "v0.43.2",
             "source": {
@@ -2034,6 +2633,57 @@
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/master"
+            },
+            "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -2150,6 +2800,67 @@
                 "source": "https://github.com/scssphp/scssphp/tree/v1.10.2"
             },
             "time": "2022-03-02T21:15:09+00:00"
+        },
+        {
+            "name": "serialization/serialization",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wmde/Serialization.git",
+                "reference": "6fa293415e2b70c30c1e673d8bcd04d27dc15e44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wmde/Serialization/zipball/6fa293415e2b70c30c1e673d8bcd04d27dc15e44",
+                "reference": "6fa293415e2b70c30c1e673d8bcd04d27dc15e44",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8",
+                "wikibase/wikibase-codesniffer": "^0.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Serializers\\": "src/Serializers/",
+                    "Deserializers\\": "src/Deserializers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library defining a Serializer and a Deserializer interface and basic utilities",
+            "homepage": "https://github.com/wmde/Serialization",
+            "keywords": [
+                "deserialization",
+                "deserializer",
+                "serialization",
+                "serializer",
+                "unserialization",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.net/wikidata",
+                "source": "https://github.com/wmde/Serialization/tree/master"
+            },
+            "time": "2017-10-25T11:45:30+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2375,6 +3086,78 @@
                 }
             ],
             "time": "2022-01-26T16:32:32+00:00"
+        },
+        {
+            "name": "wikibase/wikibase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/Wikibase.git",
+                "reference": "c2cc3f2058f89b4d4e2619177e5de3e9747926ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/Wikibase/zipball/c2cc3f2058f89b4d4e2619177e5de3e9747926ee",
+                "reference": "c2cc3f2058f89b4d4e2619177e5de3e9747926ee",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.1",
+                "data-values/common": "^1.0.0|^0.4.0|^0.3.0",
+                "data-values/data-values": "^3.0.0|^2.0.0|^1.0.0",
+                "data-values/geo": "^4.2.1|^3.0.1|^2.1.2",
+                "data-values/interfaces": "^1.0.0|^0.2.0",
+                "data-values/number": "^0.11.0",
+                "data-values/serialization": "^1.2.4|^1.2.1",
+                "data-values/time": "^1.0.4",
+                "diff/diff": "^3.2.0",
+                "monolog/monolog": "^2.0.0",
+                "onoi/message-reporter": "~1.4",
+                "php": ">=7.2.0",
+                "psr/http-message": "^1.0.1",
+                "psr/log": "^1.1.3",
+                "psr/simple-cache": "^1.0.1",
+                "wikimedia/at-ease": "^2.0.0",
+                "wikimedia/purtle": "^1.0.7",
+                "wikimedia/timestamp": "^3.0.0"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "38.0.0",
+                "mediawiki/mediawiki-phan-config": "0.10.6",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.3.1",
+                "slevomat/coding-standard": "^6.4"
+            },
+            "suggest": {
+                "ext-calendar": "Needed for dumpRdf script"
+            },
+            "default-branch": true,
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "The Wikidata team"
+                }
+            ],
+            "description": "Structured data repository for MediaWiki",
+            "homepage": "https://wikiba.se",
+            "keywords": [
+                "wikibase",
+                "wikibaseclient",
+                "wikibaselib",
+                "wikibaserepo",
+                "wikidata"
+            ],
+            "support": {
+                "irc": "irc://irc.libera.chat/wikidata",
+                "issues": "https://phabricator.wikimedia.org/",
+                "source": "https://github.com/wikimedia/Wikibase/tree/master"
+            },
+            "time": "2022-03-22T11:10:47+00:00"
         },
         {
             "name": "wikifab/category-tree",
@@ -8514,7 +9297,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wikimedia/parsoid": 15
+        "wikimedia/parsoid": 15,
+        "wikibase/wikibase": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

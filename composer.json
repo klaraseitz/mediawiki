@@ -81,7 +81,8 @@
 		"mediawiki/chameleon-skin": "~4.0",
 		"mediawiki/bootstrap": "^4.5",
 		"wikifab/category-tree": "^1.7",
-		"mediawiki/font-awesome": "^1.0"
+		"mediawiki/font-awesome": "^1.0",
+		"wikibase/wikibase": "dev-master"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
